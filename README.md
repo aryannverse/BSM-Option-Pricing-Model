@@ -17,9 +17,9 @@ The Black-Scholes-Merton (BSM) model is a mathematical model used to calculate t
 
 <h3>Core Concepts:<h3>
 
-<b>Purpose:<b> Computes fair prices for European call and put options, helping traders and investors make informed decisions.
+Purpose: Computes fair prices for European call and put options, helping traders and investors make informed decisions.
 
-<b>Inputs:<b>
+Inputs:
 
 - Current price of the underlying asset
 
@@ -33,7 +33,7 @@ The Black-Scholes-Merton (BSM) model is a mathematical model used to calculate t
 
 - Outputs: The model provides the theoretical price for both call and put options, as well as sensitivities like delta and gamma.
 
-<h3>Mathematical Formulation:<h3>
+Mathematical Formulation:
 
 
 The model uses the following formulas:
@@ -62,7 +62,7 @@ Put Option Price:
 
 Where: 
 
-<b> N(x)<b> is the cumulative distribution function of the standard normal distribution.
+N(x) is the cumulative distribution function of the standard normal distribution.
 
 Assumptions:
 
