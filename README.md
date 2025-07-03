@@ -31,7 +31,7 @@ The Black-Scholes-Merton (BSM) model is a mathematical model used to calculate t
 
 - Risk-free interest rate (annualized, continuous compounding)
 
-**Outputs:**The model provides the theoretical price for both call and put options, as well as sensitivities like delta and gamma.
+<b> Outputs: </b> The model provides the theoretical price for both call and put options, as well as sensitivities like delta and gamma.
 
  <h3> Mathematical Formulation:</h3> 
 
