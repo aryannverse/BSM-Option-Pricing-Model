@@ -15,7 +15,7 @@
 <h2>What is the Black-Scholes-Merton (BSM) model?</h2>
 The Black-Scholes-Merton (BSM) model is a mathematical model used to calculate the theoretical price of European-style options. Developed by Fischer Black, Myron Scholes, and Robert Merton, it revolutionized financial markets by providing a closed-form solution for option pricing.
 
-<h3>Core Concepts:<h3>
+<h3> Core Concepts: </h3>
 
 Purpose: Computes fair prices for European call and put options, helping traders and investors make informed decisions.
 
@@ -82,7 +82,7 @@ Practical Use:
 - It also provides "Greeks" (sensitivities) like delta and gamma, which are crucial for hedging and risk assessment
 
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2> id="technologies">💻 Technologies</h2>
 
 - Streamlit (web application framework)
 - NumPy (numerical computations)
