@@ -89,16 +89,14 @@ class BlackScholes:
         self.current_price = current_price
         self.volatility = volatility
         self.interest_rate = interest_rate
-
     def calculate_prices(self):
         d1 = (log(self.current_price / self.strike) + (self.interest_rate + 0.5 * self.volatility ** 2) * self.time_to_maturity) / (self.volatility * sqrt(self.time_to_maturity))
         d2 = d1 - self.volatility * sqrt(self.time_to_maturity)
         call_price = self.current_price * norm.cdf(d1) - (self.strike * exp(-(self.interest_rate * self.time_to_maturity)) * norm.cdf(d2))
         put_price = (self.strike * exp(-(self.interest_rate * self.time_to_maturity)) * norm.cdf(-d2)) - self.current_price * norm.cdf(-d1)
         return call_price, put_price
-
 ```
-
+```
 <h2> 💻 Technologies</h2>
 
 - Streamlit (web application framework)
