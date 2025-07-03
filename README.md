@@ -33,7 +33,7 @@ The Black-Scholes-Merton (BSM) model is a mathematical model used to calculate t
 
 - Outputs: The model provides the theoretical price for both call and put options, as well as sensitivities like delta and gamma.
 
- </h3> Mathematical Formulation: </h3> 
+ <h3> Mathematical Formulation:</h3> 
 
 
 The model uses the following formulas:
@@ -77,7 +77,8 @@ N(x) is the cumulative distribution function of the standard normal distribution
 - The BSM model is widely used in financial markets for pricing, risk management, and strategy development.
 - It also provides "Greeks" (sensitivities) like delta and gamma, which are crucial for hedging and risk assessment
 
- <h3> Example:  </h3> 
+ <h3> Example: </h3> 
+ 
 ```python
 from scipy.stats import norm
 from numpy import log, sqrt, exp
@@ -96,7 +97,7 @@ class BlackScholes:
         put_price = (self.strike * exp(-(self.interest_rate * self.time_to_maturity)) * norm.cdf(-d2)) - self.current_price * norm.cdf(-d1)
         return call_price, put_price
 ```
-```
+
 <h2> 💻 Technologies</h2>
 
 - Streamlit (web application framework)
