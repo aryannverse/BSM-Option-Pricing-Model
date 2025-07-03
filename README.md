@@ -100,13 +100,13 @@ class BlackScholes:
 
 <h2> 💻 Technologies</h2>
 
-- Streamlit (web application framework)
-- NumPy (numerical computations)
-- Pandas (data manipulation)
-- SciPy (statistical functions, e.g., normal CDF)
-- Matplotlib (data visualization)
-- Seaborn (statistical data visualization)
-- Plotly (interactive plots)
+- `Streamlit` : (web application framework)
+- `NumPy`: (numerical computations)
+- `Pandas`: (data manipulation)
+- `SciPy`: (statistical functions, e.g., normal CDF)
+- `Matplotlib`: (data visualization)
+- `Seaborn`: (statistical data visualization)
+- `Plotly`: (interactive plots)
 
 
 
@@ -120,7 +120,7 @@ git clone https://github.com/aryannverse/BSM-Option-Pricing-Model
 
 <h2>Prerequisites</h2>
 
-Prerequisite necessary for running your project. 
+Prerequisite necessary for running the project:
 
 - `yfinance`: To fetch current asset prices.
 
